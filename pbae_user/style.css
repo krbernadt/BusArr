@@ -629,6 +629,7 @@ body {
     padding: 3% 3% 3% 3%;
     box-shadow: -3px -3px 10px #aaa, 3px 3px 10px #aaa;
     border-radius: 10px;
+    width: 90%;
   }
 
   .Menu-Utama2 {
@@ -724,4 +725,106 @@ body {
     padding: 2% 2% 2% 2%;
     border-radius: 10px;
   }
+}
+
+/* tracking */
+
+@media (max-width: 768px) {
+  .menu-track {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-track div {
+    color: black;
+    margin: 5% 14% 5% 14%;
+    padding: 1% 1% 1% 8%;
+    box-shadow: 0px 0px 3px 3px #aaa, 3px 3px 3px #aaa;
+    border-radius: 10px;
+  }
+
+  .menu-track div.box1 {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 5% 5% 5%;
+    width: 90%;
+    height: 30%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+
+  .menu-track div.box2 {
+    margin: 5% 5% 5% 5%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    box-shadow: none;
+  }
+
+  .menu-track div.box3 {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    text-decoration: none;
+  }
+
+  .map1 {
+    display: flex;
+
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+  }
+  #map {
+    padding-top: 1%;
+    height: 500px;
+    width: 1000px;
+  }
+}
+
+.menu-track {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-track div {
+  color: black;
+  margin: 5% 14% 5% 14%;
+  padding: 1% 1% 1% 1%;
+  box-shadow: 0px 0px 3px 3px #aaa, 3px 3px 3px #aaa;
+  border-radius: 10px;
+}
+
+.menu-track div.box1 {
+  display: flex;
+  flex-direction: row;
+  margin: 10% 10% 10% 10%;
+  width: 90%;
+  height: 30%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.menu-track div.box2 {
+  margin: 5% 5% 5% 5%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  box-shadow: none;
+}
+
+div div.map1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+#map {
+  justify-content: center;
+  padding-top: 1%;
+  height: 500px;
+  width: 1000px;
 }

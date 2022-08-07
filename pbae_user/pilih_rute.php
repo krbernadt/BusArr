@@ -42,6 +42,9 @@
           Koridor 1A <br>
           Sekupang-Batam Centre
         </div>
+        <div>
+          <a href="utama.php"><button>Pilih rute</button></a>
+        </div>
       </div>  
   </div>
     <div class="kotak2" >
@@ -54,6 +57,9 @@
         <div class="rute1_ket">
           Koridor 1B <br>
           Batam Centre-Sekupang
+        </div>
+        <div>
+          <a href="utama.php"><button>Pilih rute</button></a>
         </div>
       </div>  
   </div>
@@ -68,6 +74,9 @@
           Koridor 2A <br>
           Tj.Uncang-Batam Centre
         </div>
+        <div>
+          <a href="utama.php"><button>Pilih rute</button></a>
+        </div>
       </div>  
   </div>
       <div class="kotak2" >
@@ -80,6 +89,9 @@
         <div class="rute1_ket" style="vertical-align: middle;">
           Koridor 2B <br>
           Batam Centre-Tj.Uncang
+        </div>
+        <div>
+          <a href="utama.php"><button>Pilih rute</button></a>
         </div>
       </div>  
   </div>
@@ -94,6 +106,9 @@
           Koridor 3A <br>
           Sekupang-Jodoh
         </div>
+        <div>
+          <a href="utama.php"><button>Pilih rute</button></a>
+        </div>
       </div>  
   </div>
       <div class="kotak2" >
@@ -106,6 +121,9 @@
         <div class="rute1_ket">
           Koridor 3B <br>
           Jodoh-Sekupang
+        </div>
+        <div>
+          <a href="utama.php"><button>Pilih rute</button></a>
         </div>
       </div>  
   </div>
@@ -120,6 +138,9 @@
         Koridor 4A <br>
         Segulung-Sekupang
       </div>
+      <div>
+          <a href="utama.php"><button>Pilih rute</button></a>
+        </div>
     </div>  
   </div>
   <div class="kotak2" >
@@ -133,6 +154,9 @@
         Koridor 4B <br>
         Segulung-Sekupang
       </div>
+      <div>
+          <a href="utama.php"><button>Pilih rute</button></a>
+        </div>
     </div>  
   </div>
     <div class="kotak2" >
@@ -146,6 +170,9 @@
         Koridor 5A <br>
         Jodoh-Batam Centre
       </div>
+      <div>
+          <a href="utama.php"><button>Pilih rute</button></a>
+        </div>
     </div>  
   </div>
   <div class="kotak2" >
@@ -159,6 +186,9 @@
         Koridor 5B <br>
         Batam Centre-Jodoh
       </div>
+      <div>
+          <a href="utama.php"><button>Pilih rute</button></a>
+        </div>
     </div>  
   </div>
     <div class="kotak2" >
@@ -172,6 +202,9 @@
         Koridor 6A <br>
         Tj.Piayu-Batam Centre
       </div>
+      <div>
+          <a href="utama.php"><button>Pilih rute</button></a>
+        </div>
     </div>  
   </div>
   <div class="kotak2" >
@@ -185,6 +218,9 @@
         Koridor 6B <br>
         Batam Centre-Tj.Piayu
       </div>
+      <div>
+          <a href="utama.php"><button>Pilih rute</button></a>
+        </div>
     </div>  
   </div>
     <div class="kotak2" >
@@ -198,6 +234,9 @@
         Koridor 7A <br>
         Nongsa-Batam Centre
       </div>
+      <div>
+          <a href="utama.php"><button>Pilih rute</button></a>
+        </div>
     </div>  
   </div>
   <div class="kotak2" >
@@ -211,6 +250,9 @@
         Koridor 7B <br>
         Batam Centre-Nongsa
       </div>
+      <div>
+          <a href="utama.php"><button>Pilih rute</button></a>
+        </div>
     </div>  
   </div>
     <div class="kotak2" >
@@ -224,6 +266,9 @@
         Koridor 8A <br>
         Punggur-Jodoh
       </div>
+      <div>
+          <a href="utama.php"><button>Pilih rute</button></a>
+        </div>
     </div>  
   </div>
   <div class="kotak2" >
@@ -237,6 +282,9 @@
         Koridor 8B <br>
         Jodoh-Punggur
       </div>
+      <div>
+          <a href="utama.php"><button>Pilih rute</button></a>
+        </div>
     </div>  
   </div>
 

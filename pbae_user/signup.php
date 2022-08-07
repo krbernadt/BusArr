@@ -44,10 +44,10 @@
                         <input type="text" name="email" class="form-control" id="inputEmail" placeholder="Email" />
                       </div>
                       <div class="form-floating mb-3">
-                        <input type="text" name="psswd" class="form-control" id="inputPassword" placeholder="Password" />
+                        <input type="password" name="psswd" class="form-control" id="inputPassword" placeholder="Password" />
                       </div>
                       <div class="form-floating mb-3">
-                        <input type="text" name="confirm_password" class="form-control" id="confirm_password"  placeholder="Confirm Password" />
+                        <input type="password" name="confirm_password" class="form-control" id="confirm_password"  placeholder="Confirm Password" />
                       </div>
                       <br />
                       <div class="d-flex align-items-center justify-content-center">
@@ -55,14 +55,6 @@
                       </div>
                       <br />
                       <br />
-                      <div class="text-left font-weight-light my-2">Or sign up with</div>
-                      <div class="d-flex align-items-center justify-content-center">
-                        <button class="button google-button icon fa-google-plus" href="index.php" id="google">Google</button>
-                      </div>
-                      <br />
-                      <div class="d-flex align-items-center justify-content-center">
-                        <button class="button facebook-button icon fa-facebook-square" href="index.php" id="facebook">Facebook</button>
-                      </div>
                     </form>
                   </div>
                 </div>

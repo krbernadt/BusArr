@@ -37,27 +37,26 @@
                 <div class="card shadow-lg border-0 mt-5" id="card">
                   <div class="card-body">
                     <form method="POST" action="cek_login.php">
+                      <br>
+                      <br>
                       <br />
                       <div class="form-floating mb-3">
                         <input class="form-control" name="username" id="inputUsername" type="text" placeholder="Username" />
                       </div>
+                      <br>
                       <div class="form-floating mb-3 validate-input" data-validate = "Password dibutuhkan" >
                         <input class="form-control" name="psswd" id="inputPassword" type="password" placeholder="Password" />
                       </div>
                       <br />
+                      <br>
+                      <br>
                       <div class="d-flex align-items-center justify-content-center">
                         <input class="button button2" id="signin" type="submit" value="Login"></input>
                       </div>
                       <br />
                       <br />
-                      <div class="text-left font-weight-light my-2">Or sign in with</div>
-                      <div class="d-flex align-items-center justify-content-center">
-                        <button class="button google-button icon fa-google-plus" href="#" id="google">Google</button>
-                      </div>
-                      <br />
-                      <div class="d-flex align-items-center justify-content-center">
-                        <button class="button facebook-button icon fa-facebook-square" href="#" id="facebook">Facebook</button>
-                      </div>
+                      
+                      
                     </form>
                   </div>
                 </div>

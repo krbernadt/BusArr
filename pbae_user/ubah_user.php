@@ -4,11 +4,10 @@ if(!isset($_SESSION['user'])){
     header("Location: index.php");
     exit;
 }
-
 include 'koneksi.php';
-$id_user   = $_SESSION['user'];
-$user       = mysqli_query($conn, "select * from user where id_user='$id_user'");
-$row            = mysqli_fetch_array($user);
+$username  = $_SESSION['user'];
+$query       = mysqli_query($conn, "select * from user where username='$username'");
+$row            = mysqli_fetch_array($query);
 
 ?>
 
@@ -33,7 +32,7 @@ $row            = mysqli_fetch_array($user);
               <span class="line line3"></span>
           </div>
           <ul class="menu-items">
-              <li>&emsp;<i class="fas fa-route"></i><a href="#home">&emsp;Rute</a></li>
+              <li>&emsp;<i class="fas fa-route"></i><a href="pilih_rute.php">&emsp;Rute</a></li>
               <li>&emsp;<i class="far fa-calendar-check"></i><a href="jadwal.php">&emsp;Jadwal</a></li>
               <li>&emsp;<i class="far fa-user"></i><a href="profil.php">&emsp;Profil</a></li>
           </ul>
@@ -52,7 +51,7 @@ $row            = mysqli_fetch_array($user);
         </div>
         <div class="login__field">
           Username<br>
-          <input type="text" name="uname" id="inputUsername" class="login__input">
+          <input type="text" name="uname" id="inputUsername" class="login__input" placeholder="username">
         </div>
         <div class="login__field">
            Email<br>
@@ -64,7 +63,6 @@ $row            = mysqli_fetch_array($user);
         </div>
         <div class="login__field">
           Password<br>
-          <a href="edit_password.php">
           <input type="password" class="login__input" placeholder="password">
         </a>
         </div>

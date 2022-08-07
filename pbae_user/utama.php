@@ -8,15 +8,6 @@
     <link rel="stylesheet" href="./js/all.min.css"/>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./css/font-awesome.min.css"/>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvoOAuH5adi7tQ0oBwyXmW4DDpP37JnwI&callback=initMap" async defer></script>
-    <script type="text/javascript">
-      function initMap() {
-        var map = new google.maps.Map(document.getElementById('show_maps'), {
-          center: {lat: -1.035721, lng: 118.436931},
-          zoom: 5
-        });
-      }
-    </script>
 </head>
 <body>
     <nav class="navbar">
@@ -34,21 +25,47 @@
           </ul>
       </div>
   </nav>
+  
+  <div class="Menu-Utama3">
+      <div class="box1">
+        <div class="subbox">NOPOL SB 01</div>
+        <div class="box2">Kor 1 (Sekupang - Batam Centre)</div>
+      </div>
+  </div>
+    
   <div class="Menu-Utama">
     <div class="row" style="margin-right :0px !important" style="--bs-gutter-x:none !important">
       <div class="col-md-12">
-        <div class="panggil_kor">Panggil Koridor</div>
-      </div>
-    </div>
-  </div>
-
+        <div id="map" style="height:400px; width:100%;"></div>
         <div class="maps" style="text-align: center;" class="img-fluid" style="border-radius: 10px;">  
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127649.60715204824!2d104.008908602122!3d1.1242839928544255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98b85a2064d37%3A0x280d50335e8ddd69!2sHalte%20Trans%20Sekupang%20Batam!5e0!3m2!1sid!2sid!4v1638144337049!5m2!1sid!2sid" 
-          height="400px" 
-          allow="fullscreen" 
-          loading="eager"> 
-          </iframe>
-        </div>
+        <script style="text-align: center" class="img-fluid" style="border-radius: 10px">
+        // Initialize and add the map
+        var map;
+        function initMap() {
+          // The map, centered on Central Park
+          const center = { lat: 1.110100  , lng: 103.993046 };
+          const options = { zoom: 11, scaleControl: true, center: center };
+          map = new google.maps.Map(document.getElementById("map"), options);
+          // Locations of landmarks
+          const post_1 = { lat: 1.126401, lng: 103.928094 };
+          const post_2 = { lat: 1.118937, lng: 103.937442 };
+          const post_3 = { lat: 1.116203, lng: 103.940449};
+          const post_4 = { lat: 1.117619, lng: 104.00385 };
+          const post_5 = { lat: 1.125524, lng: 104.029118 };
+          const post_6 = { lat: 1.129198, lng: 104.056921 };
+          
+          // The markers for The Dakota and The Frick Collection
+          var mk1 = new google.maps.Marker({ position: post_1, map: map });
+          var mk2 = new google.maps.Marker({ position: post_2, map: map });
+          var mk3 = new google.maps.Marker({ position: post_3, map: map });
+          var mk4 = new google.maps.Marker({ position: post_4, map: map });
+          var mk5 = new google.maps.Marker({ position: post_5, map: map });
+          var mk6 = new google.maps.Marker({ position: post_6, map: map });
+        }
+      </script>
+      <!--Load the API from the specified URL -- remember to replace YOUR_API_KEY-->
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVNjQ0xxvZuZSljlbol5QxG8Dh_HY3HCQ&callback=initMap"></script>
+    </div>
       
       </div>
     </div>
@@ -57,13 +74,9 @@
   <div class="Menu-Utama3">
       <div class="col" >
         <div class="panggil_est1">
-          <div class="time"><a>Nama Halte Bus</a></div>
-          <div class="est">Dan waktu bus tiba : est</div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="panggil_est2">
-          <div class="img_koor"> Panggil foto</div>
+          <div class="time"><a>Transfer Point Sekupang - Mega Mall</a></div>
+          <div class="est">Waktu kedatangan bus : 7 menit</div>
+          <div class="est">Waktu perjalanan : 34 menit</div>
         </div>
       </div>
     </div>

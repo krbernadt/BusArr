@@ -61,7 +61,7 @@ if(!isset($_SESSION['user'])){
         <div class="cari">
           Cari Rute Trans Batam <br><br><br>
           Klik Untuk Memilih Rute <br>
-          <button> Pilih Rute</button>
+          <a href="pilih_rute.php"><button>Pilih Rute</button></a>
         </div>
       </div>
 
